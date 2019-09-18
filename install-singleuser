@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+theme_variant=$1
+
+mkdir -p ~/{.themes,.icons}/"$theme_variant"
+
+cp -a ./"$theme_variant"/theme/* ~/.themes/"$theme_variant"
+cp -a ./"$theme_variant"/icons/* ~/.icons/"$theme_variant"
+
+gtk-update-icon-cache ~/.icons/"$theme_variant"/

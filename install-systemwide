@@ -1,0 +1,10 @@
+#!/bin/bash
+
+theme_variant=$1
+
+sudo mkdir -p /usr/share/{themes,icons}/"$theme_variant"
+
+sudo cp -a ./"$theme_variant"/theme/* /usr/share/themes/"$theme_variant"
+sudo cp -a ./"$theme_variant"/icons/* /usr/share/icons/"$theme_variant"
+
+sudo gtk-update-icon-cache /usr/share/icons/"$theme_variant"
