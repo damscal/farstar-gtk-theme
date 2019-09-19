@@ -1,0 +1,20 @@
+# Paste this colorscheme to your ~/.Xresources
+
+*background:  #000000
+*foreground:  #ffffff
+*color0:  #393939
+*color1:  #ff0000
+*color2:  #32ee00
+*color3:  #ffee00
+*color4:  #8e4bff
+*color5:  #ff00ff
+*color6:  #32eeff
+*color7:  #ffffff
+*color8:  #999999
+*color9:  #ff0000
+*color10:  #32bc00
+*color11:  #ffbc00
+*color12:  #3200ee
+*color13:  #ff00cd
+*color14:  #32bccd
+*color15:  #ffffff
