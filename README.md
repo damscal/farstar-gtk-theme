@@ -3,11 +3,11 @@ An extra dark gtk theme based on materia theme and papirus icons.
 
 # Install
 
-clone the repository in a directory of your choice, e.g. `~/bin/farstar-gtk-theme`
+clone the repository in a directory of your choice, e.g. in `~/bin`
 
 ```
-mkdir -p ~/bin/farstar-gtk-theme
-cd ~/bin/farstar-gtk-theme
+mkdir -p ~/bin
+cd ~/bin
 git clone https://github.com/damscal/farstar-gtk-theme
 ```
 
@@ -19,6 +19,7 @@ to install the amber version (the only one currently available), run:
 
 `sh install-systemwide Farstar-amber`
 
+Warning: the install scripts have been written for Arch Linux. Users of other distros may have to edit the scripts according to their system.
 
 # Extra
 
