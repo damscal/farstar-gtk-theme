@@ -15,9 +15,9 @@ then install themes and icons either for the current user, or systemwide.
 
 to install the amber version (the only one currently available), run:
 
-`sh install-singleuser Farstar-amber`
+`sh ./farstar-gtk-theme/install-singleuser Farstar-amber`
 
-`sh install-systemwide Farstar-amber`
+`sh ./farstar-gtk-theme/install-systemwide Farstar-amber`
 
 Warning: the install scripts have been written for Arch Linux. Users of other distros may have to edit the scripts according to their system.
 
