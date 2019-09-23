@@ -2,13 +2,12 @@
 
 export theme_variant=$1
 
+getSourceDir() { echo "$(dirname "$(readlink -f "$0")")" ;}
+cd "$(getSourceDir)"
+
 sudo -E bash <<'EOF'
 
 mkdir -p /usr/share/{themes,icons}/"$theme_variant"
-
-getSourceDir() { echo "$(dirname "$(readlink -f "$0")")" ;}
-
-cd "$(getSourceDir)"
 
 cp -a ./"$theme_variant"/theme/* /usr/share/themes/"$theme_variant"
 cp -a ./"$theme_variant"/icons/* /usr/share/icons/"$theme_variant"
